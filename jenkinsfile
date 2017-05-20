@@ -14,7 +14,7 @@ pipeline {
 	  junit 'reports/result.xml'
 	}
     }
-    stage('build'){
+    stage ('build') {
 	sh 'ant -f build.xml -v'
 	}
 	
