@@ -42,7 +42,7 @@ pipeline {
 	}
     }
 
-    stage {
+    stage ("Running on CentOS") {
 	agent {
 	  label 'CentOS'
 	}
@@ -52,7 +52,5 @@ pipeline {
 	}
     }
   }
-
-    
 
 }
